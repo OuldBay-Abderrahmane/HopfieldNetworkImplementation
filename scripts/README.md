@@ -1,4 +1,3 @@
-
 <div id="top"></div>
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
@@ -23,8 +22,7 @@
 <br />
 <div align="center">
 
-<h3 align="center">Implementation of Hopfield Networks in collaboration with Richard Chiu and Margot Vogel 
-</h3>
+<h3 align="center">Hopefield Network implementation</h3>
 
   <p align="center">
     This project is an implementation of Hopefield networks or recurrent artificial neural network. Hopefield networks serve as content-addressable ("associative") memory systems with binary threshold nodes, or with continuous variables. using differents models such as <a href="https://en.wikipedia.org/wiki/Hopfield_network#Hebbian_learning_rule_for_Hopfield_networks" >Hebbian</a> and <a href="https://en.wikipedia.org/wiki/Hopfield_network#Storkey_learning_rule">Storkey</a> models to be able study biological systems. 
@@ -176,4 +174,3 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: images/screenshot.png
 
->>>>>>> master
