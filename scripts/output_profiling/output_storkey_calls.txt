@@ -1,0 +1,125 @@
+Mon Dec  6 14:24:07 2021    output_profiling/output_storkey.dat
+
+         361439 function calls (361428 primitive calls) in 1.687 seconds
+
+   Ordered by: call count
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+    60123    0.086    0.000    0.086    0.000 {built-in method numpy.array}
+45110/45100    0.047    0.000    0.377    0.000 {built-in method numpy.core._multiarray_umath.implement_array_function}
+    44848    0.013    0.000    0.025    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/_asarray.py:23(asarray)
+    14884    0.042    0.000    0.042    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+    14871    0.002    0.000    0.002    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/multiarray.py:716(dot)
+    14871    0.008    0.000    0.054    0.000 {method 'all' of 'numpy.ndarray' objects}
+    14871    0.010    0.000    0.044    0.000 <__array_function__ internals>:2(dot)
+    14871    0.005    0.000    0.047    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/_methods.py:59(_all)
+    14870    0.002    0.000    0.002    0.000 {method 'append' of 'list' objects}
+    14870    0.075    0.000    0.075    0.000 {method 'randint' of 'numpy.random.mtrand.RandomState' objects}
+    14869    0.052    0.000    0.267    0.000 /Users/macpro/BIO-210-team-28/scripts/algorithms.py:217(update_async)
+    14869    0.002    0.000    0.002    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/numeric.py:2388(_array_equal_dispatcher)
+    14869    0.053    0.000    0.132    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/numeric.py:2392(array_equal)
+    14869    0.009    0.000    0.150    0.000 <__array_function__ internals>:2(array_equal)
+    14869    0.002    0.000    0.002    0.000 /usr/local/lib/python3.9/site-packages/numpy/lib/function_base.py:711(_copy_dispatcher)
+    14869    0.005    0.000    0.078    0.000 /usr/local/lib/python3.9/site-packages/numpy/lib/function_base.py:715(copy)
+    14869    0.010    0.000    0.098    0.000 <__array_function__ internals>:2(copy)
+      244    0.000    0.000    0.000    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/_asarray.py:110(asanyarray)
+      240    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+      240    0.001    0.000    0.001    0.000 {method 'diagonal' of 'numpy.ndarray' objects}
+      240    0.000    0.000    0.000    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/fromnumeric.py:1509(_diagonal_dispatcher)
+      240    0.001    0.000    0.002    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/fromnumeric.py:1513(diagonal)
+      240    0.000    0.000    0.002    0.000 <__array_function__ internals>:2(diagonal)
+      160    0.039    0.000    0.039    0.000 {method 'dot' of 'numpy.ndarray' objects}
+      160    0.000    0.000    0.000    0.000 {method 'ravel' of 'numpy.ndarray' objects}
+       85    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+       80    0.227    0.003    0.272    0.003 /Users/macpro/BIO-210-team-28/scripts/algorithms.py:378(generate_h_matrix)
+       80    0.629    0.008    1.019    0.013 /Users/macpro/BIO-210-team-28/scripts/algorithms.py:419(storkey_rule)
+       80    0.000    0.000    0.000    0.000 {method 'reshape' of 'numpy.ndarray' objects}
+       80    0.000    0.000    0.000    0.000 {method 'transpose' of 'numpy.ndarray' objects}
+       80    0.000    0.000    0.000    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/numeric.py:853(_outer_dispatcher)
+       80    0.116    0.001    0.117    0.001 /usr/local/lib/python3.9/site-packages/numpy/core/numeric.py:857(outer)
+       80    0.000    0.000    0.001    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/fromnumeric.py:52(_wrapfunc)
+       80    0.000    0.000    0.000    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/fromnumeric.py:194(_reshape_dispatcher)
+       80    0.000    0.000    0.001    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/fromnumeric.py:199(reshape)
+       80    0.000    0.000    0.001    0.000 <__array_function__ internals>:2(reshape)
+       80    0.000    0.000    0.117    0.001 <__array_function__ internals>:2(outer)
+       80    0.000    0.000    0.000    0.000 /usr/local/lib/python3.9/site-packages/numpy/lib/index_tricks.py:764(_fill_diagonal_dispatcher)
+       80    0.001    0.000    0.001    0.000 /usr/local/lib/python3.9/site-packages/numpy/lib/index_tricks.py:768(fill_diagonal)
+       80    0.000    0.000    0.001    0.000 <__array_function__ internals>:2(fill_diagonal)
+       15    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+       14    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+       13    0.000    0.000    0.000    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/fromnumeric.py:71(<dictcomp>)
+       13    0.000    0.000    0.000    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/fromnumeric.py:70(_wrapreduction)
+        8    0.000    0.000    0.000    0.000 {built-in method numpy.geterrobj}
+        6    0.000    0.000    0.000    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/fromnumeric.py:2350(_all_dispatcher)
+        6    0.000    0.000    0.000    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/fromnumeric.py:2355(all)
+        6    0.000    0.000    0.000    0.000 <__array_function__ internals>:2(all)
+        5    0.000    0.000    0.000    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/fromnumeric.py:2907(_prod_dispatcher)
+        5    0.000    0.000    0.000    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/fromnumeric.py:2912(prod)
+        5    0.000    0.000    0.000    0.000 <__array_function__ internals>:2(prod)
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.abs}
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+        4    0.000    0.000    0.000    0.000 {built-in method numpy.seterrobj}
+        4    0.000    0.000    0.000    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/_ufunc_config.py:32(seterr)
+        4    0.000    0.000    0.000    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/_ufunc_config.py:132(geterr)
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+        2    0.000    0.000    0.000    0.000 /Users/macpro/BIO-210-team-28/scripts/algorithms.py:78(pattern_match)
+        2    0.000    0.000    0.001    0.000 /Users/macpro/BIO-210-team-28/scripts/algorithms.py:181(update)
+        2    0.000    0.000    0.000    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/multiarray.py:321(where)
+        2    0.000    0.000    0.000    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/multiarray.py:644(result_type)
+        2    0.000    0.000    0.000    0.000 {built-in method numpy.zeros}
+        2    0.000    0.000    0.000    0.000 <__array_function__ internals>:2(where)
+        2    0.000    0.000    0.000    0.000 <__array_function__ internals>:2(result_type)
+        2    0.000    0.000    0.000    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/numeric.py:2182(_allclose_dispatcher)
+        2    0.000    0.000    0.000    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/numeric.py:2186(allclose)
+        2    0.000    0.000    0.000    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/numeric.py:2260(_isclose_dispatcher)
+        2    0.000    0.000    0.000    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/numeric.py:2344(within_tol)
+        2    0.000    0.000    0.000    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/numeric.py:2264(isclose)
+        2    0.000    0.000    0.000    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/_ufunc_config.py:429(__init__)
+        2    0.000    0.000    0.000    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/_ufunc_config.py:433(__enter__)
+        2    0.000    0.000    0.000    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/_ufunc_config.py:438(__exit__)
+        2    0.000    0.000    0.000    0.000 <__array_function__ internals>:2(allclose)
+        2    0.000    0.000    0.000    0.000 <__array_function__ internals>:2(isclose)
+      2/1    0.000    0.000    0.000    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/arrayprint.py:745(recurser)
+        2    0.001    0.000    0.001    0.000 {method 'choice' of 'numpy.random.mtrand.RandomState' objects}
+        1    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'splitlines' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+        1    0.000    0.000    1.687    1.687 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.id}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.locals}
+        1    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+        1    0.000    0.000    1.633    1.633 /Users/macpro/BIO-210-team-28/scripts/main.py:47(testing_storkey)
+        1    0.000    0.000    0.001    0.001 /Users/macpro/BIO-210-team-28/scripts/algorithms.py:8(generate_patterns)
+        1    0.000    0.000    0.000    0.000 /Users/macpro/BIO-210-team-28/scripts/algorithms.py:41(perturb_pattern)
+        1    0.000    0.000    0.001    0.001 /Users/macpro/BIO-210-team-28/scripts/algorithms.py:253(dynamics)
+        1    0.024    0.024    0.444    0.444 /Users/macpro/BIO-210-team-28/scripts/algorithms.py:291(dynamics_async)
+        1    0.168    0.168    1.187    1.187 /Users/macpro/BIO-210-team-28/scripts/algorithms.py:472(storkey_weights)
+        1    0.000    0.000    0.000    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/fromnumeric.py:2612(_amax_dispatcher)
+        1    0.000    0.000    0.000    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/fromnumeric.py:2617(amax)
+        1    0.000    0.000    0.000    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/fromnumeric.py:2737(_amin_dispatcher)
+        1    0.000    0.000    0.000    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/fromnumeric.py:2742(amin)
+        1    0.000    0.000    0.000    0.000 <__array_function__ internals>:2(amax)
+        1    0.000    0.000    0.000    0.000 <__array_function__ internals>:2(amin)
+        1    0.000    0.000    0.000    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/arrayprint.py:65(<dictcomp>)
+        1    0.000    0.000    0.000    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/arrayprint.py:60(_make_options_dict)
+        1    0.000    0.000    0.000    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/arrayprint.py:365(<lambda>)
+        1    0.000    0.000    0.000    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/arrayprint.py:358(_get_formatdict)
+        1    0.000    0.000    0.000    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/arrayprint.py:409(_get_format_function)
+        1    0.000    0.000    0.000    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/arrayprint.py:461(wrapper)
+        1    0.000    0.000    0.000    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/arrayprint.py:478(_array2string)
+        1    0.000    0.000    0.000    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/arrayprint.py:516(array2string)
+        1    0.000    0.000    0.000    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/arrayprint.py:695(_extendLine)
+        1    0.000    0.000    0.000    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/arrayprint.py:709(_extendLine_pretty)
+        1    0.000    0.000    0.000    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/arrayprint.py:736(_formatArray)
+        1    0.000    0.000    0.000    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/arrayprint.py:1151(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/arrayprint.py:1159(__call__)
+        1    0.000    0.000    0.000    0.000 /usr/local/lib/python3.9/site-packages/numpy/core/arrayprint.py:1500(_array_str_implementation)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.054    0.054    1.687    1.687 <string>:1(<module>)
+
+
